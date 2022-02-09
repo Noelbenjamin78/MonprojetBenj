@@ -23,29 +23,45 @@
         <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">INFO</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                </li>
+                
             </ul>
         <form>
           <input class="form-control" type="text" placeholder="Search" aria-label="Search">
         </form>
       </div>
     </div>
-  </nav>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Informations</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit laboriosam, explicabo vitae odit fugiat unde voluptate saepe repellat, perferendis minima dicta quaerat deleniti non in inventore modi enim iure accusantium maxime natus aliquam dignissimos alias. Rerum iure dolorem sint non quod quibusdam architecto laudantium, qui explicabo facere in obcaecati maiores?</p>
+    </div>
+
+    git add
+    <div class="dropdown mt-3">
+     
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+  
 
   <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -55,13 +71,13 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/paysage1.jpg" class="d-block w-100" alt="...">
+            <img class="img-carrousel" src="img/paysage1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-            <img src="img/paysage2.jpg" class="d-block w-100" alt="...">
+            <img class="img-carrousel" src="img/paysage2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-            <img src="img/paysage3.jpg" class="d-block w-100" alt="...">
+            <img class="img-carrousel" src="img/paysage3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,7 +108,7 @@
     </main>
     <!-- FOOTER -->
        
-  <footer class="row row-cols-5 py-5 my-5 border-top text-center bg-dark text-white mx-auto">
+  <footer class="row row-cols-5 py-5 my-5 border-top text-center bg-dark text-white  mb-0">
     <div class="col">
       <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
