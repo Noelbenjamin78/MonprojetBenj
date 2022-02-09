@@ -31,6 +31,9 @@
                 <li class="nav-item">
                 <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">INFO</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link active"  href="inscription.php" >Inscription</a>
+                </li>
                 
             </ul>
         <form>
