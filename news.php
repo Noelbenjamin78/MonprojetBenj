@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title >Mon projet GT</title>
+    <title >News</title>
   </head>
   <body>
 
@@ -23,16 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                 <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Home</a>
+                <a class="nav-link active"  href="index.php" >Home</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Link</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">INFO</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active"  href="news.php" >News</a>
                 </li>
                 
             </ul>
@@ -100,19 +97,43 @@
 
     </header>
     <main>
-    <h1 class="text-center mt-4">Mon projet GIT</h1>
+    <h1 class="text-center mt-4">NEWS</h1>
 
     <div class="container">
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus harum tenetur dolorum quas sequi, ex iusto eveniet rerum exercitationem. Corporis, nihil? Voluptatem, qui quisquam neque excepturi obcaecati sapiente ad sunt iure nostrum maiores vero laudantium ut dignissimos minima iste, autem eaque quas non? Itaque sint voluptatum, ducimus aut porro reiciendis?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad perspiciatis perferendis aliquam dignissimos, reprehenderit facere excepturi ducimus natus autem, recusandae minus, et iusto sapiente eius. Provident dignissimos alias, sunt nisi eius optio et pariatur quod ratione fuga libero, magnam dolores ipsam nulla accusamus repellat saepe culpa, perferendis molestiae consequuntur? Totam esse possimus accusantium eius fugiat. Quae quidem, aliquid enim tenetur obcaecati non aut minima suscipit cupiditate eum placeat sint libero laborum magnam aliquam consequuntur facilis doloribus totam quis accusamus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloremque nobis officiis fugit expedita provident animi voluptas rem placeat voluptatem voluptates laudantium tempore quasi possimus earum atque sed quibusdam a eos soluta commodi, harum sint. Error laudantium pariatur rem quaerat quo. Odit perspiciatis autem ea voluptates nemo accusamus laborum eum, aliquam ratione at. Odit sequi ipsam perspiciatis non perferendis vitae molestiae repellat accusamus quod nesciunt eaque minima temporibus, deserunt placeat provident. Ipsum autem ab natus. Molestiae ratione voluptatum, eos amet suscipit eveniet ullam. Vero nihil adipisci vitae odit alias reiciendis consequuntur, minus odio, assumenda rerum, error perspiciatis maxime enim harum.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla excepturi aperiam ducimus, nesciunt tenetur accusantium dolor corrupti exercitationem deleniti quae delectus odio magni nostrum sequi doloribus ad eos ullam nobis repellendus obcaecati quos et? Repellendus obcaecati facere odio, vel non, voluptatum expedita ipsa amet id aut ab. Voluptatum, ad ut.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla excepturi aperiam ducimus, nesciunt tenetur accusantium dolor corrupti exercitationem deleniti quae delectus odio magni nostrum sequi doloribus ad eos ullam nobis repellendus obcaecati quos et? Repellendus obcaecati facere odio, vel non, voluptatum expedita ipsa amet id aut ab. Voluptatum, ad ut.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla excepturi aperiam ducimus, nesciunt tenetur accusantium dolor corrupti exercitationem deleniti quae delectus odio magni nostrum sequi doloribus ad eos ullam nobis repellendus obcaecati quos et? Repellendus obcaecati facere odio, vel non, voluptatum expedita ipsa amet id aut ab. Voluptatum, ad ut.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla excepturi aperiam ducimus, nesciunt tenetur accusantium dolor corrupti exercitationem deleniti quae delectus odio magni nostrum sequi doloribus ad eos ullam nobis repellendus obcaecati quos et? Repellendus obcaecati facere odio, vel non, voluptatum expedita ipsa amet id aut ab. Voluptatum, ad ut.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla excepturi aperiam ducimus, nesciunt tenetur accusantium dolor corrupti exercitationem deleniti quae delectus odio magni nostrum sequi doloribus ad eos ullam nobis repellendus obcaecati quos et? Repellendus obcaecati facere odio, vel non, voluptatum expedita ipsa amet id aut ab. Voluptatum, ad ut.</p>
-
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        C'est par içi
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        mais aussi par là
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum doloremque impedit blanditiis aperiam dolor sint eius aliquid. Nulla, excepturi nihil provident harum animi a tenetur iste porro quia vel cumque soluta, amet, quaerat laborum numquam in. Optio numquam perspiciatis veritatis quae adipisci pariatur, inventore autem id a! Error, alias.</p> </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Où bien là à toi de voire!!
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+        
     </main>
     <!-- FOOTER -->
        
