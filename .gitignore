@@ -1,0 +1,4 @@
+### ce fichier permet de préciser quel dossier ou fichier ne sera pas versionné sur github
+### on exclu ici le dossier /img contenant toutes les photos
+
+/img/
